@@ -1,2 +1,22 @@
+# SSH keys and sensitive data
 .ssh/
-.ssh
+*.pem
+*.key
+*.private
+
+# ROS
+build/
+install/
+log/
+devel/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
