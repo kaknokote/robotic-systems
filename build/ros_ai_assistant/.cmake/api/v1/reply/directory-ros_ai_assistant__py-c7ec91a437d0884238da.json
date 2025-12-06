@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros_ai_assistant__py",
+		"source" : "/home/vladislav/ros2_ws/build/ros_ai_assistant/ros_ai_assistant__py"
+	}
+}

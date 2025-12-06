@@ -1,0 +1,606 @@
+[0.028s] Invoking command in '/home/vladislav/ros2_ws/build/ros_ai_assistant': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vladislav/ros2_ws/src/ros_ai_assistant -DCMAKE_INSTALL_PREFIX=/home/vladislav/ros2_ws/install/ros_ai_assistant
+[0.057s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.258s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.292s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.296s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.303s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.332s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.369s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.371s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.520s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.577s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.057s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.851s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.885s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.895s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.948s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.948s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.948s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.948s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.981s] -- Found PythonExtra: .so  
+[2.115s] -- Configuring done
+[2.207s] -- Generating done
+[2.229s] -- Build files have been written to: /home/vladislav/ros2_ws/build/ros_ai_assistant
+[2.250s] Invoked command in '/home/vladislav/ros2_ws/build/ros_ai_assistant' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vladislav/ros2_ws/src/ros_ai_assistant -DCMAKE_INSTALL_PREFIX=/home/vladislav/ros2_ws/install/ros_ai_assistant
+[2.255s] Invoking command in '/home/vladislav/ros2_ws/build/ros_ai_assistant': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vladislav/ros2_ws/build/ros_ai_assistant -- -j4 -l4
+[2.361s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.384s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.400s] [  1%] Built target ament_cmake_python_copy_ros_ai_assistant
+[2.732s] running egg_info
+[2.734s] creating ros_ai_assistant.egg-info
+[2.734s] writing ros_ai_assistant.egg-info/PKG-INFO
+[2.734s] writing dependency_links to ros_ai_assistant.egg-info/dependency_links.txt
+[2.735s] writing top-level names to ros_ai_assistant.egg-info/top_level.txt
+[2.735s] writing manifest file 'ros_ai_assistant.egg-info/SOURCES.txt'
+[2.744s] reading manifest file 'ros_ai_assistant.egg-info/SOURCES.txt'
+[2.744s] writing manifest file 'ros_ai_assistant.egg-info/SOURCES.txt'
+[2.789s] [  1%] Built target ament_cmake_python_build_ros_ai_assistant_egg
+[3.957s] [  1%] Built target ros_ai_assistant__cpp
+[3.978s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.980s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.987s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.007s] [  4%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/msg/detail/security_alert__functions.c.o[0m
+[4.227s] [  5%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/msg/detail/user_command__functions.c.o[0m
+[4.297s] [  6%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/msg/detail/ai_response__functions.c.o[0m
+[4.358s] [  6%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/msg/detail/system_status__functions.c.o[0m
+[4.438s] [  7%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/msg/detail/threat_assessment__functions.c.o[0m
+[4.531s] [  8%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/msg/detail/weapon_status__functions.c.o[0m
+[4.593s] [  9%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/srv/detail/weapon_control__functions.c.o[0m
+[4.661s] [ 10%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/srv/detail/user_authentication__functions.c.o[0m
+[4.728s] [ 11%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/srv/detail/context_switch__functions.c.o[0m
+[4.791s] [ 12%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/msg/security_alert__type_support.cpp.o[0m
+[4.867s] [ 12%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/srv/detail/emergency_shutdown__functions.c.o[0m
+[4.983s] [ 13%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/srv/detail/threat_assessment__functions.c.o[0m
+[5.142s] [ 14%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/srv/detail/open_ai_request__functions.c.o[0m
+[5.268s] [ 15%] [32m[1mLinking C shared library libros_ai_assistant__rosidl_generator_c.so[0m
+[5.314s] [ 15%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/msg/detail/security_alert__type_support.cpp.o[0m
+[5.379s] [ 15%] Built target ros_ai_assistant__rosidl_generator_c
+[5.402s] [ 16%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/msg/user_command__type_support.cpp.o[0m
+[5.423s] [ 17%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/msg/detail/dds_fastrtps/security_alert__type_support.cpp.o[0m
+[5.666s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.017s] [ 19%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/msg/ai_response__type_support.cpp.o[0m
+[6.161s] [ 20%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/msg/detail/user_command__type_support.cpp.o[0m
+[6.245s] [ 21%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/msg/detail/dds_fastrtps/user_command__type_support.cpp.o[0m
+[6.432s] [ 22%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/msg/system_status__type_support.cpp.o[0m
+[6.789s] [ 22%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/msg/threat_assessment__type_support.cpp.o[0m
+[6.905s] [ 23%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/msg/detail/dds_fastrtps/ai_response__type_support.cpp.o[0m
+[6.964s] [ 24%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/msg/detail/ai_response__type_support.cpp.o[0m
+[7.027s] [ 25%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/msg/detail/security_alert__type_support_c.cpp.o[0m
+[7.217s] [ 26%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/msg/weapon_status__type_support.cpp.o[0m
+[7.493s] [ 27%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[7.547s] [ 28%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/msg/detail/user_command__type_support_c.cpp.o[0m
+[7.552s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/msg/detail/system_status__type_support.cpp.o[0m
+[7.598s] [ 30%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/srv/weapon_control__type_support.cpp.o[0m
+[7.930s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/srv/user_authentication__type_support.cpp.o[0m
+[7.950s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/msg/detail/ai_response__type_support_c.cpp.o[0m
+[8.125s] [ 32%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/msg/detail/threat_assessment__type_support.cpp.o[0m
+[8.196s] [ 33%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/msg/detail/dds_fastrtps/threat_assessment__type_support.cpp.o[0m
+[8.344s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/msg/detail/system_status__type_support_c.cpp.o[0m
+[8.347s] [ 35%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/srv/context_switch__type_support.cpp.o[0m
+[8.527s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/msg/detail/weapon_status__type_support.cpp.o[0m
+[8.647s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/msg/detail/dds_fastrtps/weapon_status__type_support.cpp.o[0m
+[8.699s] [ 37%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/srv/emergency_shutdown__type_support.cpp.o[0m
+[8.778s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/msg/detail/threat_assessment__type_support_c.cpp.o[0m
+[9.005s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/srv/threat_assessment__type_support.cpp.o[0m
+[9.013s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/srv/detail/weapon_control__type_support.cpp.o[0m
+[9.148s] [ 39%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/srv/detail/dds_fastrtps/weapon_control__type_support.cpp.o[0m
+[9.209s] [ 40%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/msg/detail/weapon_status__type_support_c.cpp.o[0m
+[9.326s] [ 41%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/srv/open_ai_request__type_support.cpp.o[0m
+[9.583s] [ 42%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/srv/detail/user_authentication__type_support.cpp.o[0m
+[9.655s] [ 43%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/srv/detail/weapon_control__type_support_c.cpp.o[0m
+[9.667s] [ 44%] [32m[1mLinking CXX shared library libros_ai_assistant__rosidl_typesupport_cpp.so[0m
+[9.749s] [ 44%] Built target ros_ai_assistant__rosidl_typesupport_cpp
+[9.763s] [ 45%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/srv/detail/context_switch__type_support.cpp.o[0m
+[9.879s] [ 46%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/srv/detail/dds_fastrtps/user_authentication__type_support.cpp.o[0m
+[10.066s] [ 47%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/srv/detail/user_authentication__type_support_c.cpp.o[0m
+[10.220s] [ 48%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/srv/detail/dds_fastrtps/context_switch__type_support.cpp.o[0m
+[10.242s] [ 49%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/srv/detail/emergency_shutdown__type_support.cpp.o[0m
+[10.516s] [ 50%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/srv/detail/threat_assessment__type_support.cpp.o[0m
+[10.537s] [ 50%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/srv/detail/context_switch__type_support_c.cpp.o[0m
+[10.689s] [ 51%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/srv/detail/dds_fastrtps/emergency_shutdown__type_support.cpp.o[0m
+[10.698s] [ 52%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.964s] [ 53%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/srv/detail/emergency_shutdown__type_support_c.cpp.o[0m
+[11.002s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/srv/detail/open_ai_request__type_support.cpp.o[0m
+[11.195s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/srv/detail/dds_fastrtps/threat_assessment__type_support.cpp.o[0m
+[11.373s] [ 56%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/srv/detail/threat_assessment__type_support_c.cpp.o[0m
+[11.461s] [ 57%] [32m[1mLinking CXX shared library libros_ai_assistant__rosidl_typesupport_introspection_cpp.so[0m
+[11.632s] [ 57%] Built target ros_ai_assistant__rosidl_typesupport_introspection_cpp
+[11.661s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.784s] [ 58%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/srv/detail/dds_fastrtps/open_ai_request__type_support.cpp.o[0m
+[11.828s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/srv/detail/open_ai_request__type_support_c.cpp.o[0m
+[12.006s] [ 60%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/msg/detail/security_alert__type_support.c.o[0m
+[12.081s] [ 61%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/msg/detail/user_command__type_support.c.o[0m
+[12.158s] [ 62%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/msg/detail/ai_response__type_support.c.o[0m
+[12.222s] [ 62%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/msg/detail/system_status__type_support.c.o[0m
+[12.258s] [ 63%] [32m[1mLinking CXX shared library libros_ai_assistant__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.297s] [ 64%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/msg/detail/threat_assessment__type_support.c.o[0m
+[12.319s] [ 65%] [32m[1mLinking CXX shared library libros_ai_assistant__rosidl_typesupport_fastrtps_c.so[0m
+[12.376s] [ 66%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/msg/detail/weapon_status__type_support.c.o[0m
+[12.434s] [ 67%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/srv/detail/weapon_control__type_support.c.o[0m
+[12.467s] [ 67%] Built target ros_ai_assistant__rosidl_typesupport_fastrtps_cpp
+[12.506s] [ 68%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/srv/detail/user_authentication__type_support.c.o[0m
+[12.511s] [ 69%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/srv/detail/context_switch__type_support.c.o[0m
+[12.517s] [ 69%] Built target ros_ai_assistant__rosidl_typesupport_fastrtps_c
+[12.535s] [ 70%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/srv/detail/emergency_shutdown__type_support.c.o[0m
+[12.550s] [ 71%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/msg/security_alert__type_support.cpp.o[0m
+[12.575s] [ 72%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/srv/detail/open_ai_request__type_support.c.o[0m
+[12.587s] [ 72%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/srv/detail/threat_assessment__type_support.c.o[0m
+[12.618s] [ 72%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/msg/user_command__type_support.cpp.o[0m
+[12.633s] [ 73%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/msg/ai_response__type_support.cpp.o[0m
+[12.653s] [ 74%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/msg/system_status__type_support.cpp.o[0m
+[12.655s] [ 75%] [32m[1mLinking C shared library libros_ai_assistant__rosidl_typesupport_introspection_c.so[0m
+[12.682s] [ 76%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/msg/threat_assessment__type_support.cpp.o[0m
+[12.708s] [ 77%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/msg/weapon_status__type_support.cpp.o[0m
+[12.718s] [ 78%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/srv/weapon_control__type_support.cpp.o[0m
+[12.755s] [ 78%] Built target ros_ai_assistant__rosidl_typesupport_introspection_c
+[12.755s] [ 78%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/srv/user_authentication__type_support.cpp.o[0m
+[12.774s] [ 79%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/srv/context_switch__type_support.cpp.o[0m
+[12.774s] [ 80%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/srv/emergency_shutdown__type_support.cpp.o[0m
+[12.804s] [ 81%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/srv/threat_assessment__type_support.cpp.o[0m
+[12.824s] [ 82%] [32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/srv/open_ai_request__type_support.cpp.o[0m
+[12.890s] [ 83%] [32m[1mLinking CXX shared library libros_ai_assistant__rosidl_typesupport_c.so[0m
+[12.982s] [ 83%] Built target ros_ai_assistant__rosidl_typesupport_c
+[13.033s] [ 83%] Built target ros_ai_assistant
+[13.093s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.800s] [ 84%] Built target ros_ai_assistant__py
+[14.850s] [ 85%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/msg/_security_alert_s.c.o[0m
+[14.850s] [ 86%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/msg/_user_command_s.c.o[0m
+[14.852s] [ 87%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/msg/_system_status_s.c.o[0m
+[14.852s] [ 87%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/msg/_ai_response_s.c.o[0m
+[15.295s] [ 88%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/msg/_weapon_status_s.c.o[0m
+[15.296s] [ 89%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/msg/_threat_assessment_s.c.o[0m
+[15.300s] [ 90%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/srv/_weapon_control_s.c.o[0m
+[15.301s] [ 91%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/srv/_user_authentication_s.c.o[0m
+[15.428s] [ 92%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/srv/_context_switch_s.c.o[0m
+[15.441s] [ 92%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/srv/_emergency_shutdown_s.c.o[0m
+[15.447s] [ 93%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/srv/_threat_assessment_s.c.o[0m
+[15.447s] [ 94%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/srv/_open_ai_request_s.c.o[0m
+[15.612s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/ros_ai_assistant/libros_ai_assistant__rosidl_generator_py.so[0m
+[15.712s] [ 95%] Built target ros_ai_assistant__rosidl_generator_py
+[15.766s] [ 96%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_ai_assistant/_ros_ai_assistant_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.767s] [ 97%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_ai_assistant/_ros_ai_assistant_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.772s] [ 97%] [32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_ai_assistant/_ros_ai_assistant_s.ep.rosidl_typesupport_c.c.o[0m
+[16.006s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.006s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.007s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.084s] [100%] Built target ros_ai_assistant__rosidl_typesupport_introspection_c__pyext
+[16.085s] [100%] Built target ros_ai_assistant__rosidl_typesupport_c__pyext
+[16.087s] [100%] Built target ros_ai_assistant__rosidl_typesupport_fastrtps_c__pyext
+[16.119s] Invoked command in '/home/vladislav/ros2_ws/build/ros_ai_assistant' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vladislav/ros2_ws/build/ros_ai_assistant -- -j4 -l4
+[16.150s] Invoking command in '/home/vladislav/ros2_ws/build/ros_ai_assistant': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vladislav/ros2_ws/build/ros_ai_assistant
+[16.166s] -- Install configuration: ""
+[16.167s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ament_index/resource_index/rosidl_interfaces/ros_ai_assistant
+[16.167s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant
+[16.168s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg
+[16.169s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/security_alert.h
+[16.169s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/threat_assessment.h
+[16.169s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail
+[16.169s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__type_support.h
+[16.169s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__functions.h
+[16.169s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__struct.h
+[16.170s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__type_support.h
+[16.171s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__type_support.h
+[16.172s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__struct.h
+[16.172s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__functions.h
+[16.172s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__functions.h
+[16.175s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__functions.h
+[16.175s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__type_support.h
+[16.175s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__functions.c
+[16.176s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__struct.h
+[16.177s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__functions.c
+[16.177s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__struct.h
+[16.180s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__functions.h
+[16.180s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__struct.h
+[16.180s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__functions.c
+[16.181s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__functions.h
+[16.181s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__functions.c
+[16.181s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__type_support.h
+[16.182s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__functions.c
+[16.182s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__type_support.h
+[16.182s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__struct.h
+[16.182s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__functions.c
+[16.182s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/rosidl_generator_c__visibility_control.h
+[16.182s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/system_status.h
+[16.182s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/user_command.h
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/ai_response.h
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/weapon_status.h
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/context_switch.h
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/threat_assessment.h
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__type_support.h
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__functions.c
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__struct.h
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__functions.h
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__functions.h
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__functions.c
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__functions.c
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__struct.h
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__type_support.h
+[16.183s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__type_support.h
+[16.184s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__functions.c
+[16.184s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__struct.h
+[16.185s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__functions.h
+[16.185s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__struct.h
+[16.185s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__functions.c
+[16.185s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__struct.h
+[16.185s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__functions.h
+[16.185s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__struct.h
+[16.185s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__functions.c
+[16.185s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__functions.h
+[16.185s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__type_support.h
+[16.185s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__type_support.h
+[16.185s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__type_support.h
+[16.187s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__functions.h
+[16.187s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/emergency_shutdown.h
+[16.187s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/user_authentication.h
+[16.187s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/weapon_control.h
+[16.187s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/open_ai_request.h
+[16.187s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/library_path.sh
+[16.188s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/library_path.dsv
+[16.189s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_generator_c.so
+[16.191s] -- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_generator_c.so" to ""
+[16.191s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant
+[16.191s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg
+[16.191s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail
+[16.191s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__rosidl_typesupport_fastrtps_c.h
+[16.191s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__rosidl_typesupport_fastrtps_c.h
+[16.191s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__rosidl_typesupport_fastrtps_c.h
+[16.192s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[16.192s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__rosidl_typesupport_fastrtps_c.h
+[16.193s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__rosidl_typesupport_fastrtps_c.h
+[16.194s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.194s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv
+[16.194s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail
+[16.194s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__rosidl_typesupport_fastrtps_c.h
+[16.194s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__rosidl_typesupport_fastrtps_c.h
+[16.195s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__rosidl_typesupport_fastrtps_c.h
+[16.195s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__rosidl_typesupport_fastrtps_c.h
+[16.195s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__rosidl_typesupport_fastrtps_c.h
+[16.196s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__rosidl_typesupport_fastrtps_c.h
+[16.200s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_fastrtps_c.so
+[16.200s] -- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_fastrtps_c.so" to ""
+[16.200s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant
+[16.201s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg
+[16.202s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/ai_response.hpp
+[16.202s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/weapon_status.hpp
+[16.203s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/threat_assessment.hpp
+[16.203s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail
+[16.203s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__type_support.hpp
+[16.203s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__traits.hpp
+[16.205s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__traits.hpp
+[16.206s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__struct.hpp
+[16.206s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__traits.hpp
+[16.206s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__traits.hpp
+[16.206s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__struct.hpp
+[16.207s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__struct.hpp
+[16.207s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__builder.hpp
+[16.207s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__type_support.hpp
+[16.208s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__struct.hpp
+[16.208s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__type_support.hpp
+[16.208s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__builder.hpp
+[16.208s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__builder.hpp
+[16.208s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__type_support.hpp
+[16.209s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__builder.hpp
+[16.209s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__type_support.hpp
+[16.210s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__type_support.hpp
+[16.210s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__struct.hpp
+[16.210s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__traits.hpp
+[16.211s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__builder.hpp
+[16.211s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__struct.hpp
+[16.211s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__builder.hpp
+[16.211s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__traits.hpp
+[16.213s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/security_alert.hpp
+[16.213s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/system_status.hpp
+[16.213s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/user_command.hpp
+[16.214s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.214s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv
+[16.214s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/threat_assessment.hpp
+[16.214s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail
+[16.215s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__type_support.hpp
+[16.215s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__type_support.hpp
+[16.215s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__traits.hpp
+[16.215s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__type_support.hpp
+[16.216s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__traits.hpp
+[16.216s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__type_support.hpp
+[16.216s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__builder.hpp
+[16.216s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__builder.hpp
+[16.216s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__struct.hpp
+[16.216s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__type_support.hpp
+[16.216s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__struct.hpp
+[16.216s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__struct.hpp
+[16.216s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__builder.hpp
+[16.216s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__builder.hpp
+[16.216s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__struct.hpp
+[16.216s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__traits.hpp
+[16.216s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__traits.hpp
+[16.216s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__struct.hpp
+[16.217s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__traits.hpp
+[16.217s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__struct.hpp
+[16.217s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__builder.hpp
+[16.217s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__traits.hpp
+[16.217s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__builder.hpp
+[16.217s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__type_support.hpp
+[16.217s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/open_ai_request.hpp
+[16.218s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/context_switch.hpp
+[16.218s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/user_authentication.hpp
+[16.218s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/weapon_control.hpp
+[16.218s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/emergency_shutdown.hpp
+[16.220s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant
+[16.220s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg
+[16.220s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail
+[16.220s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__rosidl_typesupport_fastrtps_cpp.hpp
+[16.220s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__rosidl_typesupport_fastrtps_cpp.hpp
+[16.220s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__rosidl_typesupport_fastrtps_cpp.hpp
+[16.220s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__rosidl_typesupport_fastrtps_cpp.hpp
+[16.220s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__rosidl_typesupport_fastrtps_cpp.hpp
+[16.220s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/dds_fastrtps
+[16.221s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[16.221s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.221s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv
+[16.221s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail
+[16.221s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__rosidl_typesupport_fastrtps_cpp.hpp
+[16.222s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__rosidl_typesupport_fastrtps_cpp.hpp
+[16.222s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__rosidl_typesupport_fastrtps_cpp.hpp
+[16.222s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/dds_fastrtps
+[16.222s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__rosidl_typesupport_fastrtps_cpp.hpp
+[16.223s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__rosidl_typesupport_fastrtps_cpp.hpp
+[16.223s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__rosidl_typesupport_fastrtps_cpp.hpp
+[16.223s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_fastrtps_cpp.so
+[16.223s] -- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.224s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant
+[16.224s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg
+[16.224s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail
+[16.224s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__type_support.c
+[16.224s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__type_support.c
+[16.225s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__type_support.c
+[16.225s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__type_support.c
+[16.225s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__type_support.c
+[16.226s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__rosidl_typesupport_introspection_c.h
+[16.226s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__rosidl_typesupport_introspection_c.h
+[16.226s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__rosidl_typesupport_introspection_c.h
+[16.226s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__rosidl_typesupport_introspection_c.h
+[16.226s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[16.227s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__type_support.c
+[16.227s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__rosidl_typesupport_introspection_c.h
+[16.227s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.227s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv
+[16.227s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail
+[16.227s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__type_support.c
+[16.227s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__rosidl_typesupport_introspection_c.h
+[16.229s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__type_support.c
+[16.229s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__type_support.c
+[16.229s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__type_support.c
+[16.229s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__rosidl_typesupport_introspection_c.h
+[16.230s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__type_support.c
+[16.230s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__rosidl_typesupport_introspection_c.h
+[16.230s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__type_support.c
+[16.230s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__rosidl_typesupport_introspection_c.h
+[16.230s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__rosidl_typesupport_introspection_c.h
+[16.230s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__rosidl_typesupport_introspection_c.h
+[16.230s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_introspection_c.so
+[16.231s] -- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_introspection_c.so" to ""
+[16.231s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_c.so
+[16.231s] -- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_c.so" to ""
+[16.231s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant
+[16.231s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg
+[16.231s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail
+[16.235s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__type_support.cpp
+[16.235s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__rosidl_typesupport_introspection_cpp.hpp
+[16.235s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__rosidl_typesupport_introspection_cpp.hpp
+[16.235s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__type_support.cpp
+[16.235s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__type_support.cpp
+[16.235s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[16.235s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__type_support.cpp
+[16.236s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__type_support.cpp
+[16.241s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__rosidl_typesupport_introspection_cpp.hpp
+[16.242s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__type_support.cpp
+[16.242s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__rosidl_typesupport_introspection_cpp.hpp
+[16.242s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__rosidl_typesupport_introspection_cpp.hpp
+[16.242s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv
+[16.243s] -- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail
+[16.243s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__rosidl_typesupport_introspection_cpp.hpp
+[16.243s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__type_support.cpp
+[16.243s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__type_support.cpp
+[16.244s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__rosidl_typesupport_introspection_cpp.hpp
+[16.244s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__type_support.cpp
+[16.244s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__type_support.cpp
+[16.246s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__type_support.cpp
+[16.246s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__rosidl_typesupport_introspection_cpp.hpp
+[16.246s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__rosidl_typesupport_introspection_cpp.hpp
+[16.247s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__rosidl_typesupport_introspection_cpp.hpp
+[16.247s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__rosidl_typesupport_introspection_cpp.hpp
+[16.247s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__type_support.cpp
+[16.247s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_introspection_cpp.so
+[16.247s] -- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_introspection_cpp.so" to ""
+[16.247s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_cpp.so
+[16.247s] -- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_cpp.so" to ""
+[16.247s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/pythonpath.sh
+[16.247s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/pythonpath.dsv
+[16.247s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant-0.1.0-py3.10.egg-info
+[16.247s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant-0.1.0-py3.10.egg-info/SOURCES.txt
+[16.247s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant-0.1.0-py3.10.egg-info/PKG-INFO
+[16.248s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant-0.1.0-py3.10.egg-info/dependency_links.txt
+[16.248s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant-0.1.0-py3.10.egg-info/top_level.txt
+[16.248s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant
+[16.248s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/libros_ai_assistant__rosidl_generator_py.so
+[16.248s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.250s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg
+[16.250s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_weapon_status.py
+[16.250s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_user_command_s.c
+[16.250s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_ai_response_s.c
+[16.251s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_system_status.py
+[16.252s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_security_alert_s.c
+[16.252s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_security_alert.py
+[16.252s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_weapon_status_s.c
+[16.253s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_system_status_s.c
+[16.253s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_ai_response.py
+[16.253s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_user_command.py
+[16.254s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/__init__.py
+[16.254s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_threat_assessment_s.c
+[16.255s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_threat_assessment.py
+[16.255s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv
+[16.255s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_open_ai_request_s.c
+[16.256s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_emergency_shutdown_s.c
+[16.256s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_context_switch.py
+[16.256s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_user_authentication_s.c
+[16.256s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_user_authentication.py
+[16.256s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_weapon_control.py
+[16.256s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_emergency_shutdown.py
+[16.257s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_open_ai_request.py
+[16.257s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_context_switch_s.c
+[16.257s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/__init__.py
+[16.257s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_weapon_control_s.c
+[16.257s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_threat_assessment_s.c
+[16.258s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_threat_assessment.py
+[16.259s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/_ros_ai_assistant_s.ep.rosidl_typesupport_introspection_c.c
+[16.259s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.260s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/_ros_ai_assistant_s.ep.rosidl_typesupport_c.c
+[16.260s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.260s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/_ros_ai_assistant_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.260s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/__init__.py
+[16.319s] Listing '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant'...
+[16.319s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/__init__.py'...
+[16.319s] Listing '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg'...
+[16.319s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/__init__.py'...
+[16.320s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_ai_response.py'...
+[16.320s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_security_alert.py'...
+[16.320s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_system_status.py'...
+[16.320s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_threat_assessment.py'...
+[16.320s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_user_command.py'...
+[16.320s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_weapon_status.py'...
+[16.320s] Listing '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv'...
+[16.320s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/__init__.py'...
+[16.320s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_context_switch.py'...
+[16.320s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_emergency_shutdown.py'...
+[16.320s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_open_ai_request.py'...
+[16.320s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_threat_assessment.py'...
+[16.320s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_user_authentication.py'...
+[16.320s] Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_weapon_control.py'...
+[16.328s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.328s] -- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.330s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.330s] -- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.330s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.331s] -- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.331s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_generator_py.so
+[16.332s] -- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_generator_py.so" to ""
+[16.332s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/SecurityAlert.idl
+[16.332s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/UserCommand.idl
+[16.332s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/AIResponse.idl
+[16.333s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/SystemStatus.idl
+[16.333s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/ThreatAssessment.idl
+[16.336s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/WeaponStatus.idl
+[16.336s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/WeaponControl.idl
+[16.338s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/UserAuthentication.idl
+[16.340s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ContextSwitch.idl
+[16.341s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/EmergencyShutdown.idl
+[16.341s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ThreatAssessment.idl
+[16.342s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/OpenAIRequest.idl
+[16.342s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/SecurityAlert.msg
+[16.342s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/UserCommand.msg
+[16.342s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/AIResponse.msg
+[16.342s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/SystemStatus.msg
+[16.342s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/ThreatAssessment.msg
+[16.343s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/WeaponStatus.msg
+[16.343s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/WeaponControl.srv
+[16.343s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/WeaponControl_Request.msg
+[16.343s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/WeaponControl_Response.msg
+[16.343s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/UserAuthentication.srv
+[16.343s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/UserAuthentication_Request.msg
+[16.344s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/UserAuthentication_Response.msg
+[16.344s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ContextSwitch.srv
+[16.344s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ContextSwitch_Request.msg
+[16.346s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ContextSwitch_Response.msg
+[16.347s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/EmergencyShutdown.srv
+[16.347s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/EmergencyShutdown_Request.msg
+[16.347s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/EmergencyShutdown_Response.msg
+[16.347s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ThreatAssessment.srv
+[16.347s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ThreatAssessment_Request.msg
+[16.350s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ThreatAssessment_Response.msg
+[16.351s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/OpenAIRequest.srv
+[16.351s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/OpenAIRequest_Request.msg
+[16.351s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/OpenAIRequest_Response.msg
+[16.351s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/launch
+[16.351s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/launch/simulation.launch
+[16.352s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/launch/openai_integration.launch
+[16.352s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/launch/security.launch
+[16.352s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/launch/assistant.launch
+[16.352s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/config
+[16.352s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/config/security_params.yaml
+[16.352s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/config/communication_params.yaml
+[16.352s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/config/api_endpoints.yaml
+[16.352s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/config/ai_model_params.yaml
+[16.352s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api
+[16.352s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/communication_system
+[16.352s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/communication_system/app.py
+[16.352s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/communication_system/session_management.py
+[16.353s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/communication_system/user_identity.py
+[16.353s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/communication_system/greeting.py
+[16.353s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/communication_system/__init__.py
+[16.353s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/security_system
+[16.354s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/security_system/defense_systems.py
+[16.354s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/security_system/situational_analysis.py
+[16.354s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/security_system/app.py
+[16.355s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/security_system/emergency_protocols.py
+[16.356s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/security_system/weapon_control.py
+[16.356s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/security_system/__init__.py
+[16.357s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/common
+[16.357s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/common/utils.py
+[16.357s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/common/auth.py
+[16.357s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/common/database.py
+[16.357s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/openai_integration.py
+[16.357s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/context_manager.py
+[16.358s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/decision_engine.py
+[16.358s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/threat_assessment.py
+[16.358s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/weapon_controller.py
+[16.358s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/emergency_handler.py
+[16.358s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/voice_processor.py
+[16.358s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/dialog_manager.py
+[16.359s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/user_identity.py
+[16.359s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/api_gateway.py
+[16.360s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/ros_api_bridge.py
+[16.360s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/safety_monitor.py
+[16.360s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/test_connection.py
+[16.360s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ament_index/resource_index/package_run_dependencies/ros_ai_assistant
+[16.360s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ament_index/resource_index/parent_prefix_path/ros_ai_assistant
+[16.360s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/ament_prefix_path.sh
+[16.362s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/ament_prefix_path.dsv
+[16.362s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/path.sh
+[16.363s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/path.dsv
+[16.363s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/local_setup.bash
+[16.364s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/local_setup.sh
+[16.364s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/local_setup.zsh
+[16.365s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/local_setup.dsv
+[16.365s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/package.dsv
+[16.366s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ament_index/resource_index/packages/ros_ai_assistant
+[16.368s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_generator_cExport.cmake
+[16.368s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_generator_cExport-noconfig.cmake
+[16.369s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_typesupport_fastrtps_cExport.cmake
+[16.369s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.369s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_generator_cppExport.cmake
+[16.370s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.370s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.370s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_introspection_cExport.cmake
+[16.371s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.371s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_cExport.cmake
+[16.371s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_cExport-noconfig.cmake
+[16.372s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_introspection_cppExport.cmake
+[16.373s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.373s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_cppExport.cmake
+[16.375s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_cppExport-noconfig.cmake
+[16.375s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_generator_pyExport.cmake
+[16.375s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_generator_pyExport-noconfig.cmake
+[16.375s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/rosidl_cmake-extras.cmake
+[16.375s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.376s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.376s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ament_cmake_export_libraries-extras.cmake
+[16.376s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ament_cmake_export_targets-extras.cmake
+[16.377s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.377s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.377s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistantConfig.cmake
+[16.378s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistantConfig-version.cmake
+[16.378s] -- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/package.xml
+[16.383s] Invoked command in '/home/vladislav/ros2_ws/build/ros_ai_assistant' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vladislav/ros2_ws/build/ros_ai_assistant

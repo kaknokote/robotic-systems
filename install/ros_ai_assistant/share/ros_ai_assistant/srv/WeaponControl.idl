@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros_ai_assistant/srv/WeaponControl.srv
+// generated code does not contain a copyright notice
+
+
+module ros_ai_assistant {
+  module srv {
+    struct WeaponControl_Request {
+      @verbatim (language="comment", text=
+        "arm/disarm/set_mode/cease_fire ...")
+      string command;
+
+      string target_id;
+
+      @verbatim (language="comment", text=
+        "0.0–1.0")
+      float force_level;
+    };
+    struct WeaponControl_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

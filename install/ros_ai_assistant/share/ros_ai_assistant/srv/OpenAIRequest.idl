@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros_ai_assistant/srv/OpenAIRequest.srv
+// generated code does not contain a copyright notice
+
+
+module ros_ai_assistant {
+  module srv {
+    struct OpenAIRequest_Request {
+      string prompt;
+
+      string context;
+
+      string model;
+    };
+    struct OpenAIRequest_Response {
+      string response;
+
+      boolean success;
+
+      float confidence;
+    };
+  };
+};

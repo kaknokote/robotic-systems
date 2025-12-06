@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000704] (line_follower) JobQueued: {'identifier': 'line_follower', 'dependencies': OrderedDict()}
+[0.000892] (line_follower) JobStarted: {'identifier': 'line_follower'}
+[0.152458] (-) TimerEvent: {}
+[0.254787] (-) TimerEvent: {}
+[0.359346] (-) TimerEvent: {}
+[0.461790] (-) TimerEvent: {}
+[0.562785] (-) TimerEvent: {}
+[0.674581] (-) TimerEvent: {}
+[0.779100] (-) TimerEvent: {}
+[1.011722] (-) TimerEvent: {}
+[1.115567] (-) TimerEvent: {}
+[1.217605] (-) TimerEvent: {}
+[1.319281] (-) TimerEvent: {}
+[1.430001] (-) TimerEvent: {}
+[1.438255] (line_follower) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/vladislav/ros2_ws/build/line_follower/build', '--no-deps', 'symlink_data'], 'cwd': '/home/vladislav/ros2_ws/build/line_follower', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vladislav', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vladislav', 'OLDPWD': '/home/vladislav/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'SYSTEMD_EXEC_PID': '1493', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vladislav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vladislav', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vladislav-VirtualBox:@/tmp/.ICE-unix/1275,unix/vladislav-VirtualBox:/tmp/.ICE-unix/1275', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b363cd43_8479_4f6a_b157_31501fb4eb35', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JDPQE3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vladislav/ros2_ws/build/line_follower', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vladislav/ros2_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vladislav/ros2_ws/install/line_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.531902] (-) TimerEvent: {}
+[1.730594] (-) TimerEvent: {}
+[1.832873] (-) TimerEvent: {}
+[1.908506] (line_follower) StdoutLine: {'line': b'running develop\n'}
+[1.934481] (-) TimerEvent: {}
+[2.035328] (-) TimerEvent: {}
+[2.169675] (-) TimerEvent: {}
+[2.183856] (line_follower) StdoutLine: {'line': b'running egg_info\n'}
+[2.184725] (line_follower) StdoutLine: {'line': b'creating line_follower.egg-info\n'}
+[2.186144] (line_follower) StdoutLine: {'line': b'writing line_follower.egg-info/PKG-INFO\n'}
+[2.186813] (line_follower) StdoutLine: {'line': b'writing dependency_links to line_follower.egg-info/dependency_links.txt\n'}
+[2.188369] (line_follower) StdoutLine: {'line': b'writing entry points to line_follower.egg-info/entry_points.txt\n'}
+[2.188675] (line_follower) StdoutLine: {'line': b'writing requirements to line_follower.egg-info/requires.txt\n'}
+[2.188777] (line_follower) StdoutLine: {'line': b'writing top-level names to line_follower.egg-info/top_level.txt\n'}
+[2.189779] (line_follower) StdoutLine: {'line': b"writing manifest file 'line_follower.egg-info/SOURCES.txt'\n"}
+[2.193913] (line_follower) StdoutLine: {'line': b"reading manifest file 'line_follower.egg-info/SOURCES.txt'\n"}
+[2.195316] (line_follower) StdoutLine: {'line': b"writing manifest file 'line_follower.egg-info/SOURCES.txt'\n"}
+[2.200595] (line_follower) StdoutLine: {'line': b'running build_ext\n'}
+[2.200915] (line_follower) StdoutLine: {'line': b'Creating /home/vladislav/ros2_ws/install/line_follower/lib/python3.10/site-packages/line-follower.egg-link (link to .)\n'}
+[2.202698] (line_follower) StdoutLine: {'line': b'\n'}
+[2.202959] (line_follower) StdoutLine: {'line': b'Installed /home/vladislav/ros2_ws/build/line_follower\n'}
+[2.203087] (line_follower) StdoutLine: {'line': b'running symlink_data\n'}
+[2.203230] (line_follower) StdoutLine: {'line': b'creating /home/vladislav/ros2_ws/install/line_follower/share/ament_index\n'}
+[2.203325] (line_follower) StdoutLine: {'line': b'creating /home/vladislav/ros2_ws/install/line_follower/share/ament_index/resource_index\n'}
+[2.206559] (line_follower) StdoutLine: {'line': b'creating /home/vladislav/ros2_ws/install/line_follower/share/ament_index/resource_index/packages\n'}
+[2.207077] (line_follower) StdoutLine: {'line': b'symbolically linking /home/vladislav/ros2_ws/build/line_follower/resource/line_follower -> /home/vladislav/ros2_ws/install/line_follower/share/ament_index/resource_index/packages\n'}
+[2.207224] (line_follower) StdoutLine: {'line': b'symbolically linking /home/vladislav/ros2_ws/build/line_follower/package.xml -> /home/vladislav/ros2_ws/install/line_follower/share/line_follower\n'}
+[2.271613] (-) TimerEvent: {}
+[2.278123] (line_follower) CommandEnded: {'returncode': 0}
+[2.304017] (line_follower) JobEnded: {'identifier': 'line_follower', 'rc': 0}
+[2.307037] (-) EventReactorShutdown: {}

@@ -1,0 +1,30 @@
+<launch>
+    <!-- Параметры -->
+    <rosparam command="load" file="$(find ros_ai_assistant)/config/security_params.yaml"/>
+    <rosparam command="load" file="$(find ros_ai_assistant)/config/communication_params.yaml"/>
+    <rosparam command="load" file="$(find ros_ai_assistant)/config/ai_model_params.yaml"/>
+    <rosparam command="load" file="$(find ros_ai_assistant)/config/api_endpoints.yaml"/>
+
+    <!-- AI Core Nodes -->
+    <node name="openai_integration" pkg="ros_ai_assistant" type="openai_integration.py" output="screen">
+        <param name="openai_api_key" value="$(env OPENAI_API_KEY)"/>
+    </node>
+    
+    <node name="context_manager" pkg="ros_ai_assistant" type="context_manager.py" output="screen"/>
+    <node name="decision_engine" pkg="ros_ai_assistant" type="decision_engine.py" output="screen"/>
+
+    <!-- Security Nodes -->
+    <node name="threat_assessment" pkg="ros_ai_assistant" type="threat_assessment.py" output="screen"/>
+    <node name="emergency_handler" pkg="ros_ai_assistant" type="emergency_handler.py" output="screen"/>
+
+    <!-- Communication Nodes -->
+    <node name="dialog_manager" pkg="ros_ai_assistant" type="dialog_manager.py" output="screen"/>
+    <node name="user_identity" pkg="ros_ai_assistant" type="user_identity.py" output="screen"/>
+
+    <!-- Integration Nodes -->
+    <node name="safety_monitor" pkg="ros_ai_assistant" type="safety_monitor.py" output="screen"/>
+    
+    <!-- API Gateway (запускается отдельно из-за Flask) -->
+    <node name="api_gateway" pkg="ros_ai_assistant" type="api_gateway.py" output="screen" respawn="true"/>
+</launch>
+

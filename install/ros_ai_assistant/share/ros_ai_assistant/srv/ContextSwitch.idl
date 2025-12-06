@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros_ai_assistant/srv/ContextSwitch.srv
+// generated code does not contain a copyright notice
+
+
+module ros_ai_assistant {
+  module srv {
+    struct ContextSwitch_Request {
+      string new_context;
+
+      boolean save_previous;
+    };
+    struct ContextSwitch_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

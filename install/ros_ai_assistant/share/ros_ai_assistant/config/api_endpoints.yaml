@@ -1,0 +1,19 @@
+security_endpoints:
+  base_url: "/api/v1/security-system"
+  endpoints:
+    situational_analysis: "/situational-analysis"
+    threat_assessment: "/threat-assessment"
+    weapon_control: "/weapon-control"
+    emergency_protocols: "/emergency-protocols"
+
+communication_endpoints:
+  base_url: "/api/v1/communication"
+  endpoints:
+    greeting: "/greeting"
+    user_identity: "/user-identity"
+    session_management: "/session-management"
+
+server:
+  port: 5000
+  host: "0.0.0.0"
+

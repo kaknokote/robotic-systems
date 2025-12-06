@@ -1,0 +1,6 @@
+Invoking command in '/home/vladislav/ros2_ws/build/ros_ai_assistant': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vladislav/ros2_ws/src/ros_ai_assistant -DCMAKE_INSTALL_PREFIX=/home/vladislav/ros2_ws/install/ros_ai_assistant
+Invoked command in '/home/vladislav/ros2_ws/build/ros_ai_assistant' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vladislav/ros2_ws/src/ros_ai_assistant -DCMAKE_INSTALL_PREFIX=/home/vladislav/ros2_ws/install/ros_ai_assistant
+Invoking command in '/home/vladislav/ros2_ws/build/ros_ai_assistant': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vladislav/ros2_ws/build/ros_ai_assistant -- -j4 -l4
+Invoked command in '/home/vladislav/ros2_ws/build/ros_ai_assistant' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vladislav/ros2_ws/build/ros_ai_assistant -- -j4 -l4
+Invoking command in '/home/vladislav/ros2_ws/build/ros_ai_assistant': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vladislav/ros2_ws/build/ros_ai_assistant
+Invoked command in '/home/vladislav/ros2_ws/build/ros_ai_assistant' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vladislav/ros2_ws/build/ros_ai_assistant

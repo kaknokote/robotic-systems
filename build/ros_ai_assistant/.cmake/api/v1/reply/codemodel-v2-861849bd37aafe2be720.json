@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bf685a9184c68c0da4e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ros_ai_assistant__py",
+					"jsonFile" : "directory-ros_ai_assistant__py-c7ec91a437d0884238da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/vladislav/ros2_ws/build/ros_ai_assistant/ros_ai_assistant__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ros_ai_assistant",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ros_ai_assistant_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ros_ai_assistant_egg-ee80c21d59105075d111.json",
+					"name" : "ament_cmake_python_build_ros_ai_assistant_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ros_ai_assistant::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ros_ai_assistant-30ff0c77e33128565b7c.json",
+					"name" : "ament_cmake_python_copy_ros_ai_assistant",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ai_assistant::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ai_assistant-cf48e9472974f3934998.json",
+					"name" : "ros_ai_assistant",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ai_assistant__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ai_assistant__cpp-94a1aea89be4475e59e8.json",
+					"name" : "ros_ai_assistant__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ros_ai_assistant__py::@9b1fa01c6280b28ce13b",
+					"jsonFile" : "target-ros_ai_assistant__py-8e6668790114f56bae1f.json",
+					"name" : "ros_ai_assistant__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ai_assistant__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ai_assistant__rosidl_generator_c-dd11d544286050284472.json",
+					"name" : "ros_ai_assistant__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ai_assistant__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ai_assistant__rosidl_generator_py-357b73dd167884e42130.json",
+					"name" : "ros_ai_assistant__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ai_assistant__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ai_assistant__rosidl_typesupport_c-ea3547374acd3c9a6b1b.json",
+					"name" : "ros_ai_assistant__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ai_assistant__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ai_assistant__rosidl_typesupport_c__pyext-d96d510427ef6358c16d.json",
+					"name" : "ros_ai_assistant__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ai_assistant__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ai_assistant__rosidl_typesupport_cpp-c1eb8bcc227745e82a8b.json",
+					"name" : "ros_ai_assistant__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ai_assistant__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ai_assistant__rosidl_typesupport_fastrtps_c-addedb73b1faa2827b9d.json",
+					"name" : "ros_ai_assistant__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ai_assistant__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ai_assistant__rosidl_typesupport_fastrtps_c__pyext-bc9799c2e5b2720cb5ac.json",
+					"name" : "ros_ai_assistant__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ai_assistant__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ai_assistant__rosidl_typesupport_fastrtps_cpp-1c2e49f0e7e485477331.json",
+					"name" : "ros_ai_assistant__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ai_assistant__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ai_assistant__rosidl_typesupport_introspection_c-e346b5553da597b0474a.json",
+					"name" : "ros_ai_assistant__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ai_assistant__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ai_assistant__rosidl_typesupport_introspection_c__pyext-33e5e0db0ee11e49cc5b.json",
+					"name" : "ros_ai_assistant__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ai_assistant__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ai_assistant__rosidl_typesupport_introspection_cpp-1eb7cabb0a5a026fb92a.json",
+					"name" : "ros_ai_assistant__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ai_assistant_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ai_assistant_uninstall-70cfdeff688d28fba040.json",
+					"name" : "ros_ai_assistant_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6c767fb1ff786c34d1e7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vladislav/ros2_ws/build/ros_ai_assistant",
+		"source" : "/home/vladislav/ros2_ws/src/ros_ai_assistant"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

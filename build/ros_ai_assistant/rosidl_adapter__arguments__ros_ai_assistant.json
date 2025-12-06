@@ -1,0 +1,17 @@
+{
+  "package_name": "ros_ai_assistant",
+  "non_idl_tuples": [
+    "/home/vladislav/ros2_ws/src/ros_ai_assistant:msg/SecurityAlert.msg",
+    "/home/vladislav/ros2_ws/src/ros_ai_assistant:msg/UserCommand.msg",
+    "/home/vladislav/ros2_ws/src/ros_ai_assistant:msg/AIResponse.msg",
+    "/home/vladislav/ros2_ws/src/ros_ai_assistant:msg/SystemStatus.msg",
+    "/home/vladislav/ros2_ws/src/ros_ai_assistant:msg/ThreatAssessment.msg",
+    "/home/vladislav/ros2_ws/src/ros_ai_assistant:msg/WeaponStatus.msg",
+    "/home/vladislav/ros2_ws/src/ros_ai_assistant:srv/WeaponControl.srv",
+    "/home/vladislav/ros2_ws/src/ros_ai_assistant:srv/UserAuthentication.srv",
+    "/home/vladislav/ros2_ws/src/ros_ai_assistant:srv/ContextSwitch.srv",
+    "/home/vladislav/ros2_ws/src/ros_ai_assistant:srv/EmergencyShutdown.srv",
+    "/home/vladislav/ros2_ws/src/ros_ai_assistant:srv/ThreatAssessment.srv",
+    "/home/vladislav/ros2_ws/src/ros_ai_assistant:srv/OpenAIRequest.srv"
+  ]
+}

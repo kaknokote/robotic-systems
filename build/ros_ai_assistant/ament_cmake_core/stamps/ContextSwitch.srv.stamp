@@ -1,0 +1,6 @@
+string new_context
+bool   save_previous
+---
+bool   success
+string message
+

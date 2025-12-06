@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros_ai_assistant/srv/ThreatAssessment.srv
+// generated code does not contain a copyright notice
+
+
+module ros_ai_assistant {
+  module srv {
+    struct ThreatAssessment_Request {
+      string scenario_description;
+    };
+    struct ThreatAssessment_Response {
+      float threat_level;
+
+      string category;
+
+      string recommendation;
+    };
+  };
+};

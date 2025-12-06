@@ -1,0 +1,3 @@
+string command        # arm/disarm/set_mode/cease_fire ...
+string target_id
+float32 force_level   # 0.0–1.0

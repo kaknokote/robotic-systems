@@ -1,0 +1,7 @@
+string user_id
+string token
+---
+bool   authorized
+string role
+string message
+

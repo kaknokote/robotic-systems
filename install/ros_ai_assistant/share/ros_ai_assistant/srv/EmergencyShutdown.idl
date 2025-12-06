@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros_ai_assistant/srv/EmergencyShutdown.srv
+// generated code does not contain a copyright notice
+
+
+module ros_ai_assistant {
+  module srv {
+    struct EmergencyShutdown_Request {
+      string reason;
+    };
+    struct EmergencyShutdown_Response {
+      boolean accepted;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_ai_assistant/msg/SecurityAlert.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module ros_ai_assistant {
+  module msg {
+    struct SecurityAlert {
+      std_msgs::msg::Header header;
+
+      string alert_id;
+
+      @verbatim (language="comment", text=
+        "low/medium/high/critical")
+      string level;
+
+      string description;
+
+      string source;
+
+      boolean requires_action;
+    };
+  };
+};

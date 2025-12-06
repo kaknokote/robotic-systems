@@ -1,0 +1,736 @@
+[0.000000] (-) TimerEvent: {}
+[0.009788] (-) JobUnselected: {'identifier': 'line_follower'}
+[0.009940] (ros_ai_assistant) JobQueued: {'identifier': 'ros_ai_assistant', 'dependencies': OrderedDict()}
+[0.011505] (ros_ai_assistant) JobStarted: {'identifier': 'ros_ai_assistant'}
+[0.032809] (ros_ai_assistant) JobProgress: {'identifier': 'ros_ai_assistant', 'progress': 'cmake'}
+[0.037362] (ros_ai_assistant) Command: {'cmd': ['/usr/bin/cmake', '/home/vladislav/ros2_ws/src/ros_ai_assistant', '-DCMAKE_INSTALL_PREFIX=/home/vladislav/ros2_ws/install/ros_ai_assistant'], 'cwd': '/home/vladislav/ros2_ws/build/ros_ai_assistant', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vladislav'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vladislav'), ('OLDPWD', '/home/vladislav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '1358'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vladislav'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vladislav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vladislav-VirtualBox:@/tmp/.ICE-unix/1321,unix/vladislav-VirtualBox:/tmp/.ICE-unix/1321'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e83c565f_9418_444b_bbb6_470b1771974c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RYXXG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.161'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vladislav/ros2_ws/build/ros_ai_assistant'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.067565] (ros_ai_assistant) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.101268] (-) TimerEvent: {}
+[0.204333] (-) TimerEvent: {}
+[0.269026] (ros_ai_assistant) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.303400] (ros_ai_assistant) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.305771] (-) TimerEvent: {}
+[0.307228] (ros_ai_assistant) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.314526] (ros_ai_assistant) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.327879] (ros_ai_assistant) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.342738] (ros_ai_assistant) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.380335] (ros_ai_assistant) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.382825] (ros_ai_assistant) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.408203] (-) TimerEvent: {}
+[0.515785] (-) TimerEvent: {}
+[0.530889] (ros_ai_assistant) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.588608] (ros_ai_assistant) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.620340] (-) TimerEvent: {}
+[0.728712] (-) TimerEvent: {}
+[0.838593] (-) TimerEvent: {}
+[0.940393] (-) TimerEvent: {}
+[1.042611] (-) TimerEvent: {}
+[1.068325] (ros_ai_assistant) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.143295] (-) TimerEvent: {}
+[1.250381] (-) TimerEvent: {}
+[1.354187] (-) TimerEvent: {}
+[1.455489] (-) TimerEvent: {}
+[1.556415] (-) TimerEvent: {}
+[1.642674] (ros_ai_assistant) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.657792] (-) TimerEvent: {}
+[1.758580] (-) TimerEvent: {}
+[1.860658] (-) TimerEvent: {}
+[1.862332] (ros_ai_assistant) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.896820] (ros_ai_assistant) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.905689] (ros_ai_assistant) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.959679] (ros_ai_assistant) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.959911] (ros_ai_assistant) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.959968] (ros_ai_assistant) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.960099] (ros_ai_assistant) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.961596] (-) TimerEvent: {}
+[1.992417] (ros_ai_assistant) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.067420] (-) TimerEvent: {}
+[2.126429] (ros_ai_assistant) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.170882] (-) TimerEvent: {}
+[2.218926] (ros_ai_assistant) StdoutLine: {'line': b'-- Generating done\n'}
+[2.240597] (ros_ai_assistant) StdoutLine: {'line': b'-- Build files have been written to: /home/vladislav/ros2_ws/build/ros_ai_assistant\n'}
+[2.261583] (ros_ai_assistant) CommandEnded: {'returncode': 0}
+[2.264776] (ros_ai_assistant) JobProgress: {'identifier': 'ros_ai_assistant', 'progress': 'build'}
+[2.266238] (ros_ai_assistant) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vladislav/ros2_ws/build/ros_ai_assistant', '--', '-j4', '-l4'], 'cwd': '/home/vladislav/ros2_ws/build/ros_ai_assistant', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vladislav'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vladislav'), ('OLDPWD', '/home/vladislav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '1358'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vladislav'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vladislav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vladislav-VirtualBox:@/tmp/.ICE-unix/1321,unix/vladislav-VirtualBox:/tmp/.ICE-unix/1321'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e83c565f_9418_444b_bbb6_470b1771974c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RYXXG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.161'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vladislav/ros2_ws/build/ros_ai_assistant'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.272949] (-) TimerEvent: {}
+[2.372200] (ros_ai_assistant) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.373989] (-) TimerEvent: {}
+[2.394871] (ros_ai_assistant) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.411615] (ros_ai_assistant) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_ros_ai_assistant\n'}
+[2.477360] (-) TimerEvent: {}
+[2.640794] (-) TimerEvent: {}
+[2.741923] (-) TimerEvent: {}
+[2.743534] (ros_ai_assistant) StdoutLine: {'line': b'running egg_info\n'}
+[2.744903] (ros_ai_assistant) StdoutLine: {'line': b'creating ros_ai_assistant.egg-info\n'}
+[2.745365] (ros_ai_assistant) StdoutLine: {'line': b'writing ros_ai_assistant.egg-info/PKG-INFO\n'}
+[2.745941] (ros_ai_assistant) StdoutLine: {'line': b'writing dependency_links to ros_ai_assistant.egg-info/dependency_links.txt\n'}
+[2.746109] (ros_ai_assistant) StdoutLine: {'line': b'writing top-level names to ros_ai_assistant.egg-info/top_level.txt\n'}
+[2.746887] (ros_ai_assistant) StdoutLine: {'line': b"writing manifest file 'ros_ai_assistant.egg-info/SOURCES.txt'\n"}
+[2.755525] (ros_ai_assistant) StdoutLine: {'line': b"reading manifest file 'ros_ai_assistant.egg-info/SOURCES.txt'\n"}
+[2.755999] (ros_ai_assistant) StdoutLine: {'line': b"writing manifest file 'ros_ai_assistant.egg-info/SOURCES.txt'\n"}
+[2.800011] (ros_ai_assistant) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_ros_ai_assistant_egg\n'}
+[2.987197] (-) TimerEvent: {}
+[3.390304] (-) TimerEvent: {}
+[3.501954] (-) TimerEvent: {}
+[3.603613] (-) TimerEvent: {}
+[3.706545] (-) TimerEvent: {}
+[3.807654] (-) TimerEvent: {}
+[3.910632] (-) TimerEvent: {}
+[3.968589] (ros_ai_assistant) StdoutLine: {'line': b'[  1%] Built target ros_ai_assistant__cpp\n'}
+[3.989790] (ros_ai_assistant) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.991514] (ros_ai_assistant) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.998636] (ros_ai_assistant) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.018649] (ros_ai_assistant) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/msg/detail/security_alert__functions.c.o\x1b[0m\n'}
+[4.020475] (-) TimerEvent: {}
+[4.189457] (-) TimerEvent: {}
+[4.238335] (ros_ai_assistant) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/msg/detail/user_command__functions.c.o\x1b[0m\n'}
+[4.308375] (ros_ai_assistant) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/msg/detail/ai_response__functions.c.o\x1b[0m\n'}
+[4.308551] (-) TimerEvent: {}
+[4.369385] (ros_ai_assistant) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/msg/detail/system_status__functions.c.o\x1b[0m\n'}
+[4.449725] (ros_ai_assistant) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/msg/detail/threat_assessment__functions.c.o\x1b[0m\n'}
+[4.449911] (-) TimerEvent: {}
+[4.543007] (ros_ai_assistant) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/msg/detail/weapon_status__functions.c.o\x1b[0m\n'}
+[4.604943] (ros_ai_assistant) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/srv/detail/weapon_control__functions.c.o\x1b[0m\n'}
+[4.605120] (-) TimerEvent: {}
+[4.672898] (ros_ai_assistant) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/srv/detail/user_authentication__functions.c.o\x1b[0m\n'}
+[4.740002] (ros_ai_assistant) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/srv/detail/context_switch__functions.c.o\x1b[0m\n'}
+[4.740184] (-) TimerEvent: {}
+[4.796368] (ros_ai_assistant) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/msg/security_alert__type_support.cpp.o\x1b[0m\n'}
+[4.848325] (-) TimerEvent: {}
+[4.878593] (ros_ai_assistant) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/srv/detail/emergency_shutdown__functions.c.o\x1b[0m\n'}
+[4.949013] (-) TimerEvent: {}
+[4.994185] (ros_ai_assistant) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/srv/detail/threat_assessment__functions.c.o\x1b[0m\n'}
+[5.050325] (-) TimerEvent: {}
+[5.151833] (-) TimerEvent: {}
+[5.153645] (ros_ai_assistant) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_c.dir/rosidl_generator_c/ros_ai_assistant/srv/detail/open_ai_request__functions.c.o\x1b[0m\n'}
+[5.253681] (-) TimerEvent: {}
+[5.279029] (ros_ai_assistant) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libros_ai_assistant__rosidl_generator_c.so\x1b[0m\n'}
+[5.325964] (ros_ai_assistant) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/msg/detail/security_alert__type_support.cpp.o\x1b[0m\n'}
+[5.357345] (-) TimerEvent: {}
+[5.390960] (ros_ai_assistant) StdoutLine: {'line': b'[ 15%] Built target ros_ai_assistant__rosidl_generator_c\n'}
+[5.413770] (ros_ai_assistant) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/msg/user_command__type_support.cpp.o\x1b[0m\n'}
+[5.433862] (ros_ai_assistant) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/msg/detail/dds_fastrtps/security_alert__type_support.cpp.o\x1b[0m\n'}
+[5.489738] (-) TimerEvent: {}
+[5.599439] (-) TimerEvent: {}
+[5.677713] (ros_ai_assistant) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.714020] (-) TimerEvent: {}
+[5.819401] (-) TimerEvent: {}
+[5.966312] (-) TimerEvent: {}
+[6.028626] (ros_ai_assistant) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/msg/ai_response__type_support.cpp.o\x1b[0m\n'}
+[6.130654] (-) TimerEvent: {}
+[6.170593] (ros_ai_assistant) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/msg/detail/user_command__type_support.cpp.o\x1b[0m\n'}
+[6.235457] (-) TimerEvent: {}
+[6.256212] (ros_ai_assistant) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/msg/detail/dds_fastrtps/user_command__type_support.cpp.o\x1b[0m\n'}
+[6.443395] (ros_ai_assistant) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/msg/system_status__type_support.cpp.o\x1b[0m\n'}
+[6.443572] (-) TimerEvent: {}
+[6.730710] (-) TimerEvent: {}
+[6.800033] (ros_ai_assistant) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/msg/threat_assessment__type_support.cpp.o\x1b[0m\n'}
+[6.871640] (-) TimerEvent: {}
+[6.916633] (ros_ai_assistant) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/msg/detail/dds_fastrtps/ai_response__type_support.cpp.o\x1b[0m\n'}
+[6.972965] (ros_ai_assistant) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/msg/detail/ai_response__type_support.cpp.o\x1b[0m\n'}
+[6.975894] (-) TimerEvent: {}
+[7.038161] (ros_ai_assistant) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/msg/detail/security_alert__type_support_c.cpp.o\x1b[0m\n'}
+[7.163846] (-) TimerEvent: {}
+[7.227242] (ros_ai_assistant) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/msg/weapon_status__type_support.cpp.o\x1b[0m\n'}
+[7.409249] (-) TimerEvent: {}
+[7.502737] (ros_ai_assistant) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/msg/detail/dds_fastrtps/system_status__type_support.cpp.o\x1b[0m\n'}
+[7.558576] (ros_ai_assistant) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/msg/detail/user_command__type_support_c.cpp.o\x1b[0m\n'}
+[7.558756] (-) TimerEvent: {}
+[7.561406] (ros_ai_assistant) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/msg/detail/system_status__type_support.cpp.o\x1b[0m\n'}
+[7.609357] (ros_ai_assistant) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/srv/weapon_control__type_support.cpp.o\x1b[0m\n'}
+[7.677519] (-) TimerEvent: {}
+[7.863018] (-) TimerEvent: {}
+[7.941508] (ros_ai_assistant) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/srv/user_authentication__type_support.cpp.o\x1b[0m\n'}
+[7.960274] (ros_ai_assistant) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/msg/detail/ai_response__type_support_c.cpp.o\x1b[0m\n'}
+[8.136258] (ros_ai_assistant) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/msg/detail/threat_assessment__type_support.cpp.o\x1b[0m\n'}
+[8.136504] (-) TimerEvent: {}
+[8.207728] (ros_ai_assistant) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/msg/detail/dds_fastrtps/threat_assessment__type_support.cpp.o\x1b[0m\n'}
+[8.323838] (-) TimerEvent: {}
+[8.354972] (ros_ai_assistant) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/msg/detail/system_status__type_support_c.cpp.o\x1b[0m\n'}
+[8.358983] (ros_ai_assistant) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/srv/context_switch__type_support.cpp.o\x1b[0m\n'}
+[8.476647] (-) TimerEvent: {}
+[8.538620] (ros_ai_assistant) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/msg/detail/weapon_status__type_support.cpp.o\x1b[0m\n'}
+[8.612945] (-) TimerEvent: {}
+[8.658442] (ros_ai_assistant) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/msg/detail/dds_fastrtps/weapon_status__type_support.cpp.o\x1b[0m\n'}
+[8.710435] (ros_ai_assistant) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/srv/emergency_shutdown__type_support.cpp.o\x1b[0m\n'}
+[8.713764] (-) TimerEvent: {}
+[8.789218] (ros_ai_assistant) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/msg/detail/threat_assessment__type_support_c.cpp.o\x1b[0m\n'}
+[8.943505] (-) TimerEvent: {}
+[9.016632] (ros_ai_assistant) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/srv/threat_assessment__type_support.cpp.o\x1b[0m\n'}
+[9.024386] (ros_ai_assistant) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/srv/detail/weapon_control__type_support.cpp.o\x1b[0m\n'}
+[9.129258] (-) TimerEvent: {}
+[9.159082] (ros_ai_assistant) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/srv/detail/dds_fastrtps/weapon_control__type_support.cpp.o\x1b[0m\n'}
+[9.220846] (ros_ai_assistant) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/msg/detail/weapon_status__type_support_c.cpp.o\x1b[0m\n'}
+[9.243347] (-) TimerEvent: {}
+[9.337502] (ros_ai_assistant) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ai_assistant/srv/open_ai_request__type_support.cpp.o\x1b[0m\n'}
+[9.344289] (-) TimerEvent: {}
+[9.490440] (-) TimerEvent: {}
+[9.594454] (ros_ai_assistant) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/srv/detail/user_authentication__type_support.cpp.o\x1b[0m\n'}
+[9.594717] (-) TimerEvent: {}
+[9.666730] (ros_ai_assistant) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/srv/detail/weapon_control__type_support_c.cpp.o\x1b[0m\n'}
+[9.678754] (ros_ai_assistant) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libros_ai_assistant__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.695406] (-) TimerEvent: {}
+[9.760813] (ros_ai_assistant) StdoutLine: {'line': b'[ 44%] Built target ros_ai_assistant__rosidl_typesupport_cpp\n'}
+[9.774728] (ros_ai_assistant) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/srv/detail/context_switch__type_support.cpp.o\x1b[0m\n'}
+[9.800166] (-) TimerEvent: {}
+[9.890461] (ros_ai_assistant) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/srv/detail/dds_fastrtps/user_authentication__type_support.cpp.o\x1b[0m\n'}
+[10.004708] (-) TimerEvent: {}
+[10.077524] (ros_ai_assistant) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/srv/detail/user_authentication__type_support_c.cpp.o\x1b[0m\n'}
+[10.181541] (-) TimerEvent: {}
+[10.231349] (ros_ai_assistant) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/srv/detail/dds_fastrtps/context_switch__type_support.cpp.o\x1b[0m\n'}
+[10.253716] (ros_ai_assistant) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/srv/detail/emergency_shutdown__type_support.cpp.o\x1b[0m\n'}
+[10.358543] (-) TimerEvent: {}
+[10.474210] (-) TimerEvent: {}
+[10.527230] (ros_ai_assistant) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/srv/detail/threat_assessment__type_support.cpp.o\x1b[0m\n'}
+[10.549001] (ros_ai_assistant) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/srv/detail/context_switch__type_support_c.cpp.o\x1b[0m\n'}
+[10.701026] (ros_ai_assistant) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/srv/detail/dds_fastrtps/emergency_shutdown__type_support.cpp.o\x1b[0m\n'}
+[10.701219] (-) TimerEvent: {}
+[10.709395] (ros_ai_assistant) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.876809] (-) TimerEvent: {}
+[10.974749] (ros_ai_assistant) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/srv/detail/emergency_shutdown__type_support_c.cpp.o\x1b[0m\n'}
+[10.978234] (-) TimerEvent: {}
+[11.014013] (ros_ai_assistant) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ai_assistant/srv/detail/open_ai_request__type_support.cpp.o\x1b[0m\n'}
+[11.149831] (-) TimerEvent: {}
+[11.206408] (ros_ai_assistant) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/srv/detail/dds_fastrtps/threat_assessment__type_support.cpp.o\x1b[0m\n'}
+[11.327624] (-) TimerEvent: {}
+[11.384846] (ros_ai_assistant) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/srv/detail/threat_assessment__type_support_c.cpp.o\x1b[0m\n'}
+[11.472198] (ros_ai_assistant) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libros_ai_assistant__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.472387] (-) TimerEvent: {}
+[11.616311] (-) TimerEvent: {}
+[11.643710] (ros_ai_assistant) StdoutLine: {'line': b'[ 57%] Built target ros_ai_assistant__rosidl_typesupport_introspection_cpp\n'}
+[11.665201] (ros_ai_assistant) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.795330] (ros_ai_assistant) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ai_assistant/srv/detail/dds_fastrtps/open_ai_request__type_support.cpp.o\x1b[0m\n'}
+[11.795523] (-) TimerEvent: {}
+[11.839241] (ros_ai_assistant) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ai_assistant/srv/detail/open_ai_request__type_support_c.cpp.o\x1b[0m\n'}
+[12.004660] (-) TimerEvent: {}
+[12.012799] (ros_ai_assistant) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/msg/detail/security_alert__type_support.c.o\x1b[0m\n'}
+[12.092366] (ros_ai_assistant) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/msg/detail/user_command__type_support.c.o\x1b[0m\n'}
+[12.111374] (-) TimerEvent: {}
+[12.169736] (ros_ai_assistant) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/msg/detail/ai_response__type_support.c.o\x1b[0m\n'}
+[12.211616] (-) TimerEvent: {}
+[12.233423] (ros_ai_assistant) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/msg/detail/system_status__type_support.c.o\x1b[0m\n'}
+[12.269977] (ros_ai_assistant) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libros_ai_assistant__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.308079] (ros_ai_assistant) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/msg/detail/threat_assessment__type_support.c.o\x1b[0m\n'}
+[12.315452] (-) TimerEvent: {}
+[12.330661] (ros_ai_assistant) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libros_ai_assistant__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.386829] (ros_ai_assistant) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/msg/detail/weapon_status__type_support.c.o\x1b[0m\n'}
+[12.445590] (ros_ai_assistant) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/srv/detail/weapon_control__type_support.c.o\x1b[0m\n'}
+[12.445929] (-) TimerEvent: {}
+[12.478707] (ros_ai_assistant) StdoutLine: {'line': b'[ 67%] Built target ros_ai_assistant__rosidl_typesupport_fastrtps_cpp\n'}
+[12.517541] (ros_ai_assistant) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/srv/detail/user_authentication__type_support.c.o\x1b[0m\n'}
+[12.522554] (ros_ai_assistant) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/srv/detail/context_switch__type_support.c.o\x1b[0m\n'}
+[12.528592] (ros_ai_assistant) StdoutLine: {'line': b'[ 69%] Built target ros_ai_assistant__rosidl_typesupport_fastrtps_c\n'}
+[12.546259] (-) TimerEvent: {}
+[12.546743] (ros_ai_assistant) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/srv/detail/emergency_shutdown__type_support.c.o\x1b[0m\n'}
+[12.561379] (ros_ai_assistant) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/msg/security_alert__type_support.cpp.o\x1b[0m\n'}
+[12.586741] (ros_ai_assistant) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/srv/detail/open_ai_request__type_support.c.o\x1b[0m\n'}
+[12.596780] (ros_ai_assistant) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ai_assistant/srv/detail/threat_assessment__type_support.c.o\x1b[0m\n'}
+[12.629543] (ros_ai_assistant) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/msg/user_command__type_support.cpp.o\x1b[0m\n'}
+[12.644072] (ros_ai_assistant) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/msg/ai_response__type_support.cpp.o\x1b[0m\n'}
+[12.647051] (-) TimerEvent: {}
+[12.664475] (ros_ai_assistant) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/msg/system_status__type_support.cpp.o\x1b[0m\n'}
+[12.666522] (ros_ai_assistant) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking C shared library libros_ai_assistant__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.690581] (ros_ai_assistant) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/msg/threat_assessment__type_support.cpp.o\x1b[0m\n'}
+[12.719549] (ros_ai_assistant) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/msg/weapon_status__type_support.cpp.o\x1b[0m\n'}
+[12.728984] (ros_ai_assistant) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/srv/weapon_control__type_support.cpp.o\x1b[0m\n'}
+[12.747599] (-) TimerEvent: {}
+[12.766487] (ros_ai_assistant) StdoutLine: {'line': b'[ 78%] Built target ros_ai_assistant__rosidl_typesupport_introspection_c\n'}
+[12.766701] (ros_ai_assistant) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/srv/user_authentication__type_support.cpp.o\x1b[0m\n'}
+[12.785151] (ros_ai_assistant) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/srv/context_switch__type_support.cpp.o\x1b[0m\n'}
+[12.785434] (ros_ai_assistant) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/srv/emergency_shutdown__type_support.cpp.o\x1b[0m\n'}
+[12.815638] (ros_ai_assistant) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/srv/threat_assessment__type_support.cpp.o\x1b[0m\n'}
+[12.835404] (ros_ai_assistant) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ai_assistant/srv/open_ai_request__type_support.cpp.o\x1b[0m\n'}
+[12.848562] (-) TimerEvent: {}
+[12.901598] (ros_ai_assistant) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libros_ai_assistant__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.951360] (-) TimerEvent: {}
+[12.993836] (ros_ai_assistant) StdoutLine: {'line': b'[ 83%] Built target ros_ai_assistant__rosidl_typesupport_c\n'}
+[13.044819] (ros_ai_assistant) StdoutLine: {'line': b'[ 83%] Built target ros_ai_assistant\n'}
+[13.055054] (-) TimerEvent: {}
+[13.104224] (ros_ai_assistant) StdoutLine: {'line': b'[ 84%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.172142] (-) TimerEvent: {}
+[13.309415] (-) TimerEvent: {}
+[13.490734] (-) TimerEvent: {}
+[13.724028] (-) TimerEvent: {}
+[14.369423] (-) TimerEvent: {}
+[14.515591] (-) TimerEvent: {}
+[14.646709] (-) TimerEvent: {}
+[14.751499] (-) TimerEvent: {}
+[14.811450] (ros_ai_assistant) StdoutLine: {'line': b'[ 84%] Built target ros_ai_assistant__py\n'}
+[14.858290] (-) TimerEvent: {}
+[14.861548] (ros_ai_assistant) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/msg/_security_alert_s.c.o\x1b[0m\n'}
+[14.861811] (ros_ai_assistant) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/msg/_user_command_s.c.o\x1b[0m\n'}
+[14.863438] (ros_ai_assistant) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/msg/_system_status_s.c.o\x1b[0m\n'}
+[14.863714] (ros_ai_assistant) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/msg/_ai_response_s.c.o\x1b[0m\n'}
+[14.958644] (-) TimerEvent: {}
+[15.059136] (-) TimerEvent: {}
+[15.160613] (-) TimerEvent: {}
+[15.266642] (-) TimerEvent: {}
+[15.306574] (ros_ai_assistant) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/msg/_weapon_status_s.c.o\x1b[0m\n'}
+[15.307662] (ros_ai_assistant) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/msg/_threat_assessment_s.c.o\x1b[0m\n'}
+[15.311273] (ros_ai_assistant) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/srv/_weapon_control_s.c.o\x1b[0m\n'}
+[15.312485] (ros_ai_assistant) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/srv/_user_authentication_s.c.o\x1b[0m\n'}
+[15.401950] (-) TimerEvent: {}
+[15.438512] (ros_ai_assistant) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/srv/_context_switch_s.c.o\x1b[0m\n'}
+[15.452378] (ros_ai_assistant) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/srv/_emergency_shutdown_s.c.o\x1b[0m\n'}
+[15.458177] (ros_ai_assistant) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/srv/_threat_assessment_s.c.o\x1b[0m\n'}
+[15.458358] (ros_ai_assistant) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_generator_py.dir/rosidl_generator_py/ros_ai_assistant/srv/_open_ai_request_s.c.o\x1b[0m\n'}
+[15.506454] (-) TimerEvent: {}
+[15.607123] (-) TimerEvent: {}
+[15.621923] (ros_ai_assistant) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_ai_assistant/libros_ai_assistant__rosidl_generator_py.so\x1b[0m\n'}
+[15.708381] (-) TimerEvent: {}
+[15.723195] (ros_ai_assistant) StdoutLine: {'line': b'[ 95%] Built target ros_ai_assistant__rosidl_generator_py\n'}
+[15.777895] (ros_ai_assistant) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_ai_assistant/_ros_ai_assistant_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.778111] (ros_ai_assistant) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_ai_assistant/_ros_ai_assistant_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.783576] (ros_ai_assistant) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/ros_ai_assistant__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_ai_assistant/_ros_ai_assistant_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.810668] (-) TimerEvent: {}
+[15.911322] (-) TimerEvent: {}
+[16.014777] (-) TimerEvent: {}
+[16.017160] (ros_ai_assistant) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.017352] (ros_ai_assistant) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.018442] (ros_ai_assistant) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.095463] (ros_ai_assistant) StdoutLine: {'line': b'[100%] Built target ros_ai_assistant__rosidl_typesupport_introspection_c__pyext\n'}
+[16.096771] (ros_ai_assistant) StdoutLine: {'line': b'[100%] Built target ros_ai_assistant__rosidl_typesupport_c__pyext\n'}
+[16.098543] (ros_ai_assistant) StdoutLine: {'line': b'[100%] Built target ros_ai_assistant__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.115443] (-) TimerEvent: {}
+[16.130818] (ros_ai_assistant) CommandEnded: {'returncode': 0}
+[16.135586] (ros_ai_assistant) JobProgress: {'identifier': 'ros_ai_assistant', 'progress': 'install'}
+[16.161197] (ros_ai_assistant) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vladislav/ros2_ws/build/ros_ai_assistant'], 'cwd': '/home/vladislav/ros2_ws/build/ros_ai_assistant', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vladislav'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vladislav'), ('OLDPWD', '/home/vladislav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '1358'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vladislav'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vladislav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vladislav-VirtualBox:@/tmp/.ICE-unix/1321,unix/vladislav-VirtualBox:/tmp/.ICE-unix/1321'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e83c565f_9418_444b_bbb6_470b1771974c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RYXXG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.161'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vladislav/ros2_ws/build/ros_ai_assistant'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.177664] (ros_ai_assistant) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.178262] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ament_index/resource_index/rosidl_interfaces/ros_ai_assistant\n'}
+[16.178696] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant\n'}
+[16.178885] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg\n'}
+[16.180038] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/security_alert.h\n'}
+[16.180379] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/threat_assessment.h\n'}
+[16.180441] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail\n'}
+[16.180486] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__type_support.h\n'}
+[16.180688] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__functions.h\n'}
+[16.180751] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__struct.h\n'}
+[16.181852] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__type_support.h\n'}
+[16.182390] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__type_support.h\n'}
+[16.183470] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__struct.h\n'}
+[16.183746] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__functions.h\n'}
+[16.183850] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__functions.h\n'}
+[16.186632] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__functions.h\n'}
+[16.186926] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__type_support.h\n'}
+[16.187049] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__functions.c\n'}
+[16.187463] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__struct.h\n'}
+[16.187828] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__functions.c\n'}
+[16.188404] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__struct.h\n'}
+[16.190417] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__functions.h\n'}
+[16.191695] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__struct.h\n'}
+[16.191995] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__functions.c\n'}
+[16.192643] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__functions.h\n'}
+[16.192772] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__functions.c\n'}
+[16.192816] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__type_support.h\n'}
+[16.193269] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__functions.c\n'}
+[16.193433] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__type_support.h\n'}
+[16.193553] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__struct.h\n'}
+[16.193601] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__functions.c\n'}
+[16.193643] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.194017] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/system_status.h\n'}
+[16.194092] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/user_command.h\n'}
+[16.194136] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/ai_response.h\n'}
+[16.194390] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/weapon_status.h\n'}
+[16.194437] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv\n'}
+[16.194481] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/context_switch.h\n'}
+[16.194524] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/threat_assessment.h\n'}
+[16.194564] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail\n'}
+[16.194641] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__type_support.h\n'}
+[16.194681] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__functions.c\n'}
+[16.194725] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__struct.h\n'}
+[16.194788] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__functions.h\n'}
+[16.194828] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__functions.h\n'}
+[16.194869] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__functions.c\n'}
+[16.194909] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__functions.c\n'}
+[16.194967] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__struct.h\n'}
+[16.195009] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__type_support.h\n'}
+[16.195048] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__type_support.h\n'}
+[16.195090] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__functions.c\n'}
+[16.196039] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__struct.h\n'}
+[16.196132] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__functions.h\n'}
+[16.196181] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__struct.h\n'}
+[16.196410] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__functions.c\n'}
+[16.196464] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__struct.h\n'}
+[16.196546] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__functions.h\n'}
+[16.196600] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__struct.h\n'}
+[16.196645] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__functions.c\n'}
+[16.196690] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__functions.h\n'}
+[16.196734] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__type_support.h\n'}
+[16.196779] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__type_support.h\n'}
+[16.196822] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__type_support.h\n'}
+[16.198576] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__functions.h\n'}
+[16.198759] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/emergency_shutdown.h\n'}
+[16.198811] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/user_authentication.h\n'}
+[16.198855] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/weapon_control.h\n'}
+[16.199038] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/open_ai_request.h\n'}
+[16.199113] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/library_path.sh\n'}
+[16.200027] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/library_path.dsv\n'}
+[16.200135] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_generator_c.so\n'}
+[16.202273] (ros_ai_assistant) StdoutLine: {'line': b'-- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_generator_c.so" to ""\n'}
+[16.202446] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant\n'}
+[16.202496] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg\n'}
+[16.202541] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail\n'}
+[16.202593] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__rosidl_typesupport_fastrtps_c.h\n'}
+[16.202639] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__rosidl_typesupport_fastrtps_c.h\n'}
+[16.202680] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__rosidl_typesupport_fastrtps_c.h\n'}
+[16.203730] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[16.203873] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__rosidl_typesupport_fastrtps_c.h\n'}
+[16.204577] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__rosidl_typesupport_fastrtps_c.h\n'}
+[16.205687] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.205851] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv\n'}
+[16.205908] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail\n'}
+[16.205955] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__rosidl_typesupport_fastrtps_c.h\n'}
+[16.205996] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__rosidl_typesupport_fastrtps_c.h\n'}
+[16.206800] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__rosidl_typesupport_fastrtps_c.h\n'}
+[16.206982] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__rosidl_typesupport_fastrtps_c.h\n'}
+[16.207029] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__rosidl_typesupport_fastrtps_c.h\n'}
+[16.207071] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__rosidl_typesupport_fastrtps_c.h\n'}
+[16.208168] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_fastrtps_c.so\n'}
+[16.211829] (ros_ai_assistant) StdoutLine: {'line': b'-- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.212095] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant\n'}
+[16.212149] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg\n'}
+[16.213243] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/ai_response.hpp\n'}
+[16.213502] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/weapon_status.hpp\n'}
+[16.214358] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/threat_assessment.hpp\n'}
+[16.214525] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail\n'}
+[16.214595] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__type_support.hpp\n'}
+[16.214638] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__traits.hpp\n'}
+[16.216060] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__traits.hpp\n'}
+[16.217105] (-) TimerEvent: {}
+[16.217544] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__struct.hpp\n'}
+[16.217652] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__traits.hpp\n'}
+[16.217990] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__traits.hpp\n'}
+[16.218110] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__struct.hpp\n'}
+[16.218158] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__struct.hpp\n'}
+[16.218382] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__builder.hpp\n'}
+[16.218453] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__type_support.hpp\n'}
+[16.219317] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__struct.hpp\n'}
+[16.219462] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__type_support.hpp\n'}
+[16.219511] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__builder.hpp\n'}
+[16.219828] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__builder.hpp\n'}
+[16.219936] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__type_support.hpp\n'}
+[16.220609] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__builder.hpp\n'}
+[16.220854] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__type_support.hpp\n'}
+[16.221728] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__type_support.hpp\n'}
+[16.222012] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__struct.hpp\n'}
+[16.222095] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__traits.hpp\n'}
+[16.222140] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__builder.hpp\n'}
+[16.222751] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__struct.hpp\n'}
+[16.222877] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__builder.hpp\n'}
+[16.222970] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__traits.hpp\n'}
+[16.224674] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/security_alert.hpp\n'}
+[16.224856] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/system_status.hpp\n'}
+[16.224902] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/user_command.hpp\n'}
+[16.225687] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[16.225849] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv\n'}
+[16.226004] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/threat_assessment.hpp\n'}
+[16.226087] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail\n'}
+[16.226423] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__type_support.hpp\n'}
+[16.226581] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__type_support.hpp\n'}
+[16.226699] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__traits.hpp\n'}
+[16.226816] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__type_support.hpp\n'}
+[16.226952] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__traits.hpp\n'}
+[16.227343] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__type_support.hpp\n'}
+[16.227411] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__builder.hpp\n'}
+[16.227472] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__builder.hpp\n'}
+[16.227513] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__struct.hpp\n'}
+[16.227553] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__type_support.hpp\n'}
+[16.227593] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__struct.hpp\n'}
+[16.227633] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__struct.hpp\n'}
+[16.227673] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__builder.hpp\n'}
+[16.227713] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__builder.hpp\n'}
+[16.227916] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__struct.hpp\n'}
+[16.227972] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__traits.hpp\n'}
+[16.228014] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__traits.hpp\n'}
+[16.228057] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__struct.hpp\n'}
+[16.228134] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__traits.hpp\n'}
+[16.228181] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__struct.hpp\n'}
+[16.228425] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__builder.hpp\n'}
+[16.228724] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__traits.hpp\n'}
+[16.228837] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__builder.hpp\n'}
+[16.228882] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__type_support.hpp\n'}
+[16.228923] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/open_ai_request.hpp\n'}
+[16.228982] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/context_switch.hpp\n'}
+[16.229334] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/user_authentication.hpp\n'}
+[16.229494] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/weapon_control.hpp\n'}
+[16.229569] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/emergency_shutdown.hpp\n'}
+[16.231078] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant\n'}
+[16.231607] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg\n'}
+[16.231659] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail\n'}
+[16.231726] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.231786] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.231828] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.231871] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.232025] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.232107] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/dds_fastrtps\n'}
+[16.232166] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.232407] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.232475] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv\n'}
+[16.232521] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail\n'}
+[16.232563] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.233435] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.233553] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.233600] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/dds_fastrtps\n'}
+[16.233641] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.234123] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.234875] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.234933] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.234975] (ros_ai_assistant) StdoutLine: {'line': b'-- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.235498] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant\n'}
+[16.235684] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg\n'}
+[16.235730] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail\n'}
+[16.235772] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__type_support.c\n'}
+[16.235836] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__type_support.c\n'}
+[16.236049] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__type_support.c\n'}
+[16.236408] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__type_support.c\n'}
+[16.236474] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__type_support.c\n'}
+[16.237114] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__rosidl_typesupport_introspection_c.h\n'}
+[16.237666] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__rosidl_typesupport_introspection_c.h\n'}
+[16.237806] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__rosidl_typesupport_introspection_c.h\n'}
+[16.237945] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__rosidl_typesupport_introspection_c.h\n'}
+[16.238118] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[16.238719] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__type_support.c\n'}
+[16.238819] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__rosidl_typesupport_introspection_c.h\n'}
+[16.238865] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.238924] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv\n'}
+[16.238965] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail\n'}
+[16.239005] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__type_support.c\n'}
+[16.239051] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__rosidl_typesupport_introspection_c.h\n'}
+[16.239929] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__type_support.c\n'}
+[16.240779] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__type_support.c\n'}
+[16.240864] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__type_support.c\n'}
+[16.240908] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__rosidl_typesupport_introspection_c.h\n'}
+[16.241671] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__type_support.c\n'}
+[16.241835] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__rosidl_typesupport_introspection_c.h\n'}
+[16.241893] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__type_support.c\n'}
+[16.241936] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__rosidl_typesupport_introspection_c.h\n'}
+[16.241977] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__rosidl_typesupport_introspection_c.h\n'}
+[16.242016] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__rosidl_typesupport_introspection_c.h\n'}
+[16.242070] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_introspection_c.so\n'}
+[16.242508] (ros_ai_assistant) StdoutLine: {'line': b'-- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.242769] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_c.so\n'}
+[16.242836] (ros_ai_assistant) StdoutLine: {'line': b'-- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_c.so" to ""\n'}
+[16.242880] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant\n'}
+[16.242921] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg\n'}
+[16.242971] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail\n'}
+[16.246399] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__type_support.cpp\n'}
+[16.246781] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/security_alert__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.246834] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.246877] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__type_support.cpp\n'}
+[16.246918] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__type_support.cpp\n'}
+[16.247039] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.247089] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/user_command__type_support.cpp\n'}
+[16.247826] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__type_support.cpp\n'}
+[16.250927] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.252839] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/ai_response__type_support.cpp\n'}
+[16.253746] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/threat_assessment__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.253885] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/msg/detail/weapon_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.253934] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv\n'}
+[16.253976] (ros_ai_assistant) StdoutLine: {'line': b'-- Up-to-date: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail\n'}
+[16.254667] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.254866] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__type_support.cpp\n'}
+[16.254960] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/emergency_shutdown__type_support.cpp\n'}
+[16.255502] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.255627] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__type_support.cpp\n'}
+[16.255691] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__type_support.cpp\n'}
+[16.255733] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/user_authentication__type_support.cpp\n'}
+[16.257666] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/weapon_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.257783] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/threat_assessment__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.258263] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/context_switch__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.258590] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.258638] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/include/ros_ai_assistant/ros_ai_assistant/srv/detail/open_ai_request__type_support.cpp\n'}
+[16.258684] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_introspection_cpp.so\n'}
+[16.258722] (ros_ai_assistant) StdoutLine: {'line': b'-- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.258760] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_cpp.so\n'}
+[16.258799] (ros_ai_assistant) StdoutLine: {'line': b'-- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_typesupport_cpp.so" to ""\n'}
+[16.258837] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/pythonpath.sh\n'}
+[16.258874] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/pythonpath.dsv\n'}
+[16.258912] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant-0.1.0-py3.10.egg-info\n'}
+[16.258949] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[16.259063] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[16.259249] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[16.259325] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[16.259664] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant\n'}
+[16.259747] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/libros_ai_assistant__rosidl_generator_py.so\n'}
+[16.259807] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.260993] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg\n'}
+[16.261639] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_weapon_status.py\n'}
+[16.261907] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_user_command_s.c\n'}
+[16.261962] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_ai_response_s.c\n'}
+[16.262684] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_system_status.py\n'}
+[16.263082] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_security_alert_s.c\n'}
+[16.263627] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_security_alert.py\n'}
+[16.263880] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_weapon_status_s.c\n'}
+[16.263979] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_system_status_s.c\n'}
+[16.264952] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_ai_response.py\n'}
+[16.265078] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_user_command.py\n'}
+[16.265122] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/__init__.py\n'}
+[16.265178] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_threat_assessment_s.c\n'}
+[16.265222] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_threat_assessment.py\n'}
+[16.266719] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv\n'}
+[16.266788] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_open_ai_request_s.c\n'}
+[16.266833] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_emergency_shutdown_s.c\n'}
+[16.267366] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_context_switch.py\n'}
+[16.267422] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_user_authentication_s.c\n'}
+[16.267480] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_user_authentication.py\n'}
+[16.267876] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_weapon_control.py\n'}
+[16.267970] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_emergency_shutdown.py\n'}
+[16.268596] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_open_ai_request.py\n'}
+[16.268709] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_context_switch_s.c\n'}
+[16.268754] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/__init__.py\n'}
+[16.268795] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_weapon_control_s.c\n'}
+[16.268836] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_threat_assessment_s.c\n'}
+[16.269922] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_threat_assessment.py\n'}
+[16.270573] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/_ros_ai_assistant_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[16.270804] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.271030] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/_ros_ai_assistant_s.ep.rosidl_typesupport_c.c\n'}
+[16.271520] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.271587] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/_ros_ai_assistant_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[16.271634] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/__init__.py\n'}
+[16.327958] (-) TimerEvent: {}
+[16.330454] (ros_ai_assistant) StdoutLine: {'line': b"Listing '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant'...\n"}
+[16.330771] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/__init__.py'...\n"}
+[16.330877] (ros_ai_assistant) StdoutLine: {'line': b"Listing '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg'...\n"}
+[16.331008] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/__init__.py'...\n"}
+[16.331100] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_ai_response.py'...\n"}
+[16.331200] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_security_alert.py'...\n"}
+[16.331289] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_system_status.py'...\n"}
+[16.331375] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_threat_assessment.py'...\n"}
+[16.331462] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_user_command.py'...\n"}
+[16.331550] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/msg/_weapon_status.py'...\n"}
+[16.331638] (ros_ai_assistant) StdoutLine: {'line': b"Listing '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv'...\n"}
+[16.331718] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/__init__.py'...\n"}
+[16.331836] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_context_switch.py'...\n"}
+[16.331882] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_emergency_shutdown.py'...\n"}
+[16.331928] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_open_ai_request.py'...\n"}
+[16.331967] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_threat_assessment.py'...\n"}
+[16.332009] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_user_authentication.py'...\n"}
+[16.332049] (ros_ai_assistant) StdoutLine: {'line': b"Compiling '/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/srv/_weapon_control.py'...\n"}
+[16.339017] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.339352] (ros_ai_assistant) StdoutLine: {'line': b'-- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.341357] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.341591] (ros_ai_assistant) StdoutLine: {'line': b'-- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.341640] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.342320] (ros_ai_assistant) StdoutLine: {'line': b'-- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/local/lib/python3.10/dist-packages/ros_ai_assistant/ros_ai_assistant_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.342458] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_generator_py.so\n'}
+[16.343071] (ros_ai_assistant) StdoutLine: {'line': b'-- Set runtime path of "/home/vladislav/ros2_ws/install/ros_ai_assistant/lib/libros_ai_assistant__rosidl_generator_py.so" to ""\n'}
+[16.343500] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/SecurityAlert.idl\n'}
+[16.343761] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/UserCommand.idl\n'}
+[16.344010] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/AIResponse.idl\n'}
+[16.344136] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/SystemStatus.idl\n'}
+[16.344523] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/ThreatAssessment.idl\n'}
+[16.347945] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/WeaponStatus.idl\n'}
+[16.348117] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/WeaponControl.idl\n'}
+[16.349304] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/UserAuthentication.idl\n'}
+[16.351050] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ContextSwitch.idl\n'}
+[16.351711] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/EmergencyShutdown.idl\n'}
+[16.352980] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ThreatAssessment.idl\n'}
+[16.353180] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/OpenAIRequest.idl\n'}
+[16.353236] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/SecurityAlert.msg\n'}
+[16.353573] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/UserCommand.msg\n'}
+[16.353635] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/AIResponse.msg\n'}
+[16.353676] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/SystemStatus.msg\n'}
+[16.353716] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/ThreatAssessment.msg\n'}
+[16.354167] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/msg/WeaponStatus.msg\n'}
+[16.354340] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/WeaponControl.srv\n'}
+[16.354727] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/WeaponControl_Request.msg\n'}
+[16.354786] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/WeaponControl_Response.msg\n'}
+[16.354997] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/UserAuthentication.srv\n'}
+[16.355078] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/UserAuthentication_Request.msg\n'}
+[16.355131] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/UserAuthentication_Response.msg\n'}
+[16.355760] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ContextSwitch.srv\n'}
+[16.355971] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ContextSwitch_Request.msg\n'}
+[16.357867] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ContextSwitch_Response.msg\n'}
+[16.358205] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/EmergencyShutdown.srv\n'}
+[16.358706] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/EmergencyShutdown_Request.msg\n'}
+[16.358824] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/EmergencyShutdown_Response.msg\n'}
+[16.358868] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ThreatAssessment.srv\n'}
+[16.358910] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ThreatAssessment_Request.msg\n'}
+[16.361126] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/ThreatAssessment_Response.msg\n'}
+[16.362749] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/OpenAIRequest.srv\n'}
+[16.362933] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/OpenAIRequest_Request.msg\n'}
+[16.362980] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/srv/OpenAIRequest_Response.msg\n'}
+[16.363020] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/launch\n'}
+[16.363108] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/launch/simulation.launch\n'}
+[16.363156] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/launch/openai_integration.launch\n'}
+[16.363198] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/launch/security.launch\n'}
+[16.363238] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/launch/assistant.launch\n'}
+[16.363277] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/config\n'}
+[16.363344] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/config/security_params.yaml\n'}
+[16.363385] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/config/communication_params.yaml\n'}
+[16.363429] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/config/api_endpoints.yaml\n'}
+[16.363475] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/config/ai_model_params.yaml\n'}
+[16.363942] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api\n'}
+[16.364019] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/communication_system\n'}
+[16.364062] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/communication_system/app.py\n'}
+[16.364101] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/communication_system/session_management.py\n'}
+[16.364148] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/communication_system/user_identity.py\n'}
+[16.364191] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/communication_system/greeting.py\n'}
+[16.364231] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/communication_system/__init__.py\n'}
+[16.364640] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/security_system\n'}
+[16.364939] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/security_system/defense_systems.py\n'}
+[16.365691] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/security_system/situational_analysis.py\n'}
+[16.365776] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/security_system/app.py\n'}
+[16.366210] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/security_system/emergency_protocols.py\n'}
+[16.367493] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/security_system/weapon_control.py\n'}
+[16.367913] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/security_system/__init__.py\n'}
+[16.368062] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/common\n'}
+[16.368854] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/common/utils.py\n'}
+[16.368915] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/common/auth.py\n'}
+[16.368956] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/api/common/database.py\n'}
+[16.368994] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/openai_integration.py\n'}
+[16.369032] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/context_manager.py\n'}
+[16.369069] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/decision_engine.py\n'}
+[16.369348] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/threat_assessment.py\n'}
+[16.369400] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/weapon_controller.py\n'}
+[16.369439] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/emergency_handler.py\n'}
+[16.369502] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/voice_processor.py\n'}
+[16.369941] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/dialog_manager.py\n'}
+[16.370113] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/user_identity.py\n'}
+[16.370598] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/api_gateway.py\n'}
+[16.370936] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/ros_api_bridge.py\n'}
+[16.371742] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/safety_monitor.py\n'}
+[16.371901] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/lib/ros_ai_assistant/test_connection.py\n'}
+[16.371947] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ament_index/resource_index/package_run_dependencies/ros_ai_assistant\n'}
+[16.372008] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ament_index/resource_index/parent_prefix_path/ros_ai_assistant\n'}
+[16.372052] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/ament_prefix_path.sh\n'}
+[16.373099] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/ament_prefix_path.dsv\n'}
+[16.373608] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/path.sh\n'}
+[16.374094] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/environment/path.dsv\n'}
+[16.374814] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/local_setup.bash\n'}
+[16.375431] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/local_setup.sh\n'}
+[16.375624] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/local_setup.zsh\n'}
+[16.376542] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/local_setup.dsv\n'}
+[16.376718] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/package.dsv\n'}
+[16.377159] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ament_index/resource_index/packages/ros_ai_assistant\n'}
+[16.378231] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_generator_cExport.cmake\n'}
+[16.379990] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.380234] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.380841] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.381071] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_generator_cppExport.cmake\n'}
+[16.381176] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.381229] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.381702] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.382822] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.383001] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_cExport.cmake\n'}
+[16.383050] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.383710] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.384464] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.384610] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_cppExport.cmake\n'}
+[16.386052] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistant__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.386622] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_generator_pyExport.cmake\n'}
+[16.386724] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/export_ros_ai_assistant__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.386911] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/rosidl_cmake-extras.cmake\n'}
+[16.387012] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.387611] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.387775] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.387829] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.388351] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.388544] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.388667] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistantConfig.cmake\n'}
+[16.389397] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/cmake/ros_ai_assistantConfig-version.cmake\n'}
+[16.389501] (ros_ai_assistant) StdoutLine: {'line': b'-- Installing: /home/vladislav/ros2_ws/install/ros_ai_assistant/share/ros_ai_assistant/package.xml\n'}
+[16.394710] (ros_ai_assistant) CommandEnded: {'returncode': 0}
+[16.428655] (-) TimerEvent: {}
+[16.438121] (ros_ai_assistant) JobEnded: {'identifier': 'ros_ai_assistant', 'rc': 0}
+[16.438997] (-) EventReactorShutdown: {}

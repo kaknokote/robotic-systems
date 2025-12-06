@@ -1,0 +1,2 @@
+Invoking command in '/home/vladislav/ros2_ws/build/ros_ai_assistant': /usr/bin/cmake /home/vladislav/ros2_ws/src/ros_ai_assistant -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vladislav/ros2_ws/install/ros_ai_assistant
+Invoked command in '/home/vladislav/ros2_ws/build/ros_ai_assistant' returned '1': /usr/bin/cmake /home/vladislav/ros2_ws/src/ros_ai_assistant -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vladislav/ros2_ws/install/ros_ai_assistant

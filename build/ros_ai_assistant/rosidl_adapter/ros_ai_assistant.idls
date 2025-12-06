@@ -1,0 +1,12 @@
+/home/vladislav/ros2_ws/build/ros_ai_assistant/rosidl_adapter/ros_ai_assistant:msg/SecurityAlert.idl
+/home/vladislav/ros2_ws/build/ros_ai_assistant/rosidl_adapter/ros_ai_assistant:msg/UserCommand.idl
+/home/vladislav/ros2_ws/build/ros_ai_assistant/rosidl_adapter/ros_ai_assistant:msg/AIResponse.idl
+/home/vladislav/ros2_ws/build/ros_ai_assistant/rosidl_adapter/ros_ai_assistant:msg/SystemStatus.idl
+/home/vladislav/ros2_ws/build/ros_ai_assistant/rosidl_adapter/ros_ai_assistant:msg/ThreatAssessment.idl
+/home/vladislav/ros2_ws/build/ros_ai_assistant/rosidl_adapter/ros_ai_assistant:msg/WeaponStatus.idl
+/home/vladislav/ros2_ws/build/ros_ai_assistant/rosidl_adapter/ros_ai_assistant:srv/WeaponControl.idl
+/home/vladislav/ros2_ws/build/ros_ai_assistant/rosidl_adapter/ros_ai_assistant:srv/UserAuthentication.idl
+/home/vladislav/ros2_ws/build/ros_ai_assistant/rosidl_adapter/ros_ai_assistant:srv/ContextSwitch.idl
+/home/vladislav/ros2_ws/build/ros_ai_assistant/rosidl_adapter/ros_ai_assistant:srv/EmergencyShutdown.idl
+/home/vladislav/ros2_ws/build/ros_ai_assistant/rosidl_adapter/ros_ai_assistant:srv/ThreatAssessment.idl
+/home/vladislav/ros2_ws/build/ros_ai_assistant/rosidl_adapter/ros_ai_assistant:srv/OpenAIRequest.idl

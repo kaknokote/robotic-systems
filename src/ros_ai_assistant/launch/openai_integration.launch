@@ -1,0 +1,6 @@
+<launch>
+    <node name="openai_integration" pkg="ros_ai_assistant" type="openai_integration.py" output="screen">
+        <rosparam command="load" file="$(find ros_ai_assistant)/config/ai_model_params.yaml"/>
+        <param name="openai_api_key" value="$(env OPENAI_API_KEY)"/>
+    </node>
+</launch>
